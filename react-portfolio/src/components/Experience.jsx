@@ -4,18 +4,18 @@ const Experience = () => {
   return (
     <div>
       <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <h2 class="experience-sub-title">Frontend Development</h2>
-              <div class="article-container">
+        <p className="section__text__p1">Explore My</p>
+        <h1 className="title">Experience</h1>
+        <div className="experience-details-container">
+          <div className="about-containers">
+            <div className="details-container">
+              <h2 className="experience-sub-title">Frontend Development</h2>
+              <div className="article-container">
                 <article>
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>NextJS</h3>
@@ -26,7 +26,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>ReactJS</h3>
@@ -37,7 +37,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>TypeScript</h3>
@@ -48,7 +48,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>JavaScript</h3>
@@ -59,7 +59,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>Tailwind</h3>
@@ -70,7 +70,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>HTML,CSS</h3>
@@ -81,7 +81,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>BootStrap</h3>
@@ -90,14 +90,14 @@ const Experience = () => {
                 </article>
               </div>
             </div>
-            <div class="details-container">
-              <h2 class="experience-sub-title">Backend Development</h2>
-              <div class="article-container">
+            <div className="details-container">
+              <h2 className="experience-sub-title">Backend Development</h2>
+              <div className="article-container">
                 <article>
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>Node JS</h3>
@@ -108,7 +108,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>Express JS</h3>
@@ -119,7 +119,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>Python</h3>
@@ -131,7 +131,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>PostgreSQL</h3>
@@ -142,7 +142,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>MongoDB</h3>
@@ -153,7 +153,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>Git</h3>
@@ -164,7 +164,7 @@ const Experience = () => {
                   <img
                     src="./assets/checkmark.png"
                     alt="Experience icon"
-                    class="icon"
+                    className="icon"
                   />
                   <div>
                     <h3>Django</h3>
@@ -178,8 +178,8 @@ const Experience = () => {
         <img
           src="./assets/arrow.png"
           alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
+          className="icon arrow"
+          onClick={() => (window.location.href = './#projects')}
         />
       </section>
     </div>
