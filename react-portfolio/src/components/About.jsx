@@ -4,23 +4,23 @@ const About = () => {
   return (
     <div>
       <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-          <div class="section__pic-container">
+        <p className="section__text__p1">Get To Know More</p>
+        <h1 className="title">About Me</h1>
+        <div className="section-container">
+          <div className="section__pic-container">
             <img
               src="./assets/about1.png"
               alt="Profile picture"
-              class="about-pic"
+              className="about-pic"
             />
           </div>
-          <div class="about-details-container">
-            <div class="about-containers">
-              <div class="details-container">
+          <div className="about-details-container">
+            <div className="about-containers">
+              <div className="details-container">
                 <img
                   src="./assets/experience.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <h3>Experience</h3>
                 <p>
@@ -28,17 +28,17 @@ const About = () => {
                   Web Development
                 </p>
               </div>
-              <div class="details-container">
+              <div className="details-container">
                 <img
                   src="./assets/education.png"
                   alt="Education icon"
-                  class="icon"
+                  className="icon"
                 />
                 <h3>Education</h3>
                 <p>B.Tech Computer Science</p>
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <p>
                 Hello! I’m Salsabeel Ibrahim, a Software Engineer with a passion
                 for web development. I bring a blend of creativity and technical
@@ -54,8 +54,8 @@ const About = () => {
         <img
           src="./assets/arrow.png"
           alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#experience'"
+          className="icon arrow"
+          onClick={() => (window.location.href = './#experience')}
         />
       </section>
     </div>
