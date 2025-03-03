@@ -1,23 +1,16 @@
 import React from 'react'
-import NavBar from './components/NavBar'
-import Profile from './components/Profile'
-import About from './components/About'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Home from './pages/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router'
+import Admin from './pages/Admin'
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
-      <Profile />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </Router>
   )
 }
 

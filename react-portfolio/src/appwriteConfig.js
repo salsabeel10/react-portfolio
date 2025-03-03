@@ -3,8 +3,8 @@ import { Client, Account, Databases, Storage } from 'appwrite'
 const client = new Client()
 
 client
-  .setEndpoint(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT) // Your Appwrite endpoint
-  .setProject(process.env.NEXT_PUBLIC_PROJECT_ID) // Your Appwrite project ID
+  .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT)
+  .setProject(import.meta.env.VITE_PROJECT_ID)
 
 const account = new Account(client)
 const databases = new Databases(client)
